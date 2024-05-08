@@ -1,9 +1,10 @@
 name: ui Snyk Security Scan 
 
 on:
-  push:
+  pull_request:
+    types: [opened, reopened, synchronize]
     branches:
-      - main 
+      - main
 
 jobs:
   security:
