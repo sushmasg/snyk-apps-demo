@@ -3,7 +3,7 @@ name: ui Snyk Security Scan
 on:
   push:
     branches:
-      - main
+      - main 
 
 jobs:
   security:
